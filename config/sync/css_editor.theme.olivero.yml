@@ -1,0 +1,5 @@
+path: 'public://css_editor/olivero.css'
+enabled: true
+css: ".secondary-nav__menu--level-1 > li {\r\n  display: flex;\r\n}\r\n\r\n.secondary-nav__menu--level-1 > li:not(:last-child) a {\r\n  border-right: 1px solid #000000;\r\n  padding-right: 10px;\r\n  margin-right: 10px;\r\n}\r\n.site-header__initial{\r\n  background-color: white;\r\n}\r\n@media (min-width: 75rem) {\r\n  body:not(.is-always-mobile-nav) .secondary-nav__menu-item:not(:last-child) {\r\n    margin-inline-end: 0 !important;\r\n  }\r\n}\r\n.box {\r\n  display: flex;\r\n  margin-bottom:40px;\r\n}\r\n\r\n.firstElement {\r\n  height: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.firstElement img{\r\n height: 100%;\r\n  width: 100%;\r\n}\r\n\r\n.secondElement {\r\n display: flex;\r\n justify-content: space-between;\r\n flex-direction: column;\r\n margin-left: 100px;\r\n}"
+plaintext_enabled: false
+autopreview_enabled: false

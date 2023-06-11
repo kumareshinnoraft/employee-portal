@@ -1,0 +1,18 @@
+uuid: 874ad41a-d0c1-4589-b880-6911cf14bc5f
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: ''
+weight: 0
+folder: ../config/development
+module:
+  twig_debugger: 0
+theme: {  }
+blacklist:
+  - admin_toolbar.settings
+graylist:
+  - admin_toolbar.settings
+graylist_dependents: true
+graylist_skip_equal: true

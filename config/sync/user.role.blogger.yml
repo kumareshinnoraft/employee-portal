@@ -1,0 +1,25 @@
+uuid: d84945d5-83f9-4bd1-8087-e07d19286cb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog_post
+  module:
+    - block
+    - node
+    - toolbar
+id: blogger
+label: Employee
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer blocks'
+  - 'create blog_post content'
+  - 'delete any blog_post content'
+  - 'delete blog_post revisions'
+  - 'delete own blog_post content'
+  - 'edit any blog_post content'
+  - 'edit own blog_post content'
+  - 'revert blog_post revisions'
+  - 'view blog_post revisions'

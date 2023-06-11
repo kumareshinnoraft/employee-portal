@@ -1,0 +1,12 @@
+favicon:
+  mimetype: image/png
+  path: 'public://drupal-logo_icon-icons.com_57158_0_0.png'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://drupal-logo_icon-icons.com_57158_2.png'
+  use_default: true

@@ -1,0 +1,22 @@
+uuid: 8dee41ea-41a2-44d0-a3e6-d5eaa5deb037
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_olivero
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: custom_olivero_breadcrumbs
+theme: custom_olivero
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

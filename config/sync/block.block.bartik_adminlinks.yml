@@ -1,0 +1,33 @@
+uuid: fc3f4937-a122-4104-a401-39b5325abf2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.admin-links
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+id: bartik_adminlinks
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:admin-links'
+settings:
+  id: 'system_menu_block:admin-links'
+  label: 'Admin Links'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

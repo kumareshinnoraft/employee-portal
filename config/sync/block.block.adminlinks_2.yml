@@ -1,0 +1,29 @@
+uuid: afb582e9-f92d-4ac9-9973-fe3b779f7b0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.admin-links
+  module:
+    - system
+  theme:
+    - olivero
+id: adminlinks_2
+theme: olivero
+region: breadcrumb
+weight: -7
+provider: null
+plugin: 'system_menu_block:admin-links'
+settings:
+  id: 'system_menu_block:admin-links'
+  label: 'Admin Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

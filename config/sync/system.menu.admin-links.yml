@@ -1,0 +1,8 @@
+uuid: e67ad854-7173-4aa5-a587-5a1b2dd8d9bd
+langcode: en
+status: true
+dependencies: {  }
+id: admin-links
+label: 'Admin Links'
+description: 'Admin links will be shown for the admin.'
+locked: false

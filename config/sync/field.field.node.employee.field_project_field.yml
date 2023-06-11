@@ -1,0 +1,29 @@
+uuid: 775633f4-04cd-448e-882b-c837b1492fdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_field
+    - node.type.employee
+    - node.type.project
+id: node.employee.field_project_field
+field_name: field_project_field
+entity_type: node
+bundle: employee
+label: Project
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      project: project
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

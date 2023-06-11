@@ -1,0 +1,43 @@
+uuid: 0d4553da-f89c-4ee1-8e24-cc5a3b5daa49
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+    - node.type.project
+    - taxonomy.vocabulary.skills
+  module:
+    - block
+    - field_ui
+    - node
+    - taxonomy
+id: hr
+label: HR
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'administer blocks'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term fields'
+  - 'administer taxonomy_term form display'
+  - 'create employee content'
+  - 'create project content'
+  - 'create terms in skills'
+  - 'delete any employee content'
+  - 'delete any project content'
+  - 'delete employee revisions'
+  - 'delete own employee content'
+  - 'delete own project content'
+  - 'delete project revisions'
+  - 'delete terms in skills'
+  - 'edit any employee content'
+  - 'edit any project content'
+  - 'edit own employee content'
+  - 'edit own project content'
+  - 'edit terms in skills'
+  - 'revert employee revisions'
+  - 'revert project revisions'
+  - 'view employee revisions'
+  - 'view project revisions'

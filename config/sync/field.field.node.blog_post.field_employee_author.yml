@@ -1,0 +1,29 @@
+uuid: a789e852-4949-44cd-91ef-cb39498cf689
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_author
+    - node.type.blog_post
+    - node.type.employee
+id: node.blog_post.field_employee_author
+field_name: field_employee_author
+entity_type: node
+bundle: blog_post
+label: Employee
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      employee: employee
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

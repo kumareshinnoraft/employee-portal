@@ -1,0 +1,8 @@
+uuid: cf96e83d-2f1f-422d-893c-40b587b5fddd
+langcode: en
+status: true
+dependencies: {  }
+id: add-skills-terms
+label: 'HR Menu'
+description: 'This terms would be add in the skill vocabulary'
+locked: false

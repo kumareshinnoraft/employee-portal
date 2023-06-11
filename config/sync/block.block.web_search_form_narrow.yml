@@ -1,0 +1,23 @@
+uuid: 67b19ae3-620c-41cf-a171-374dfd39a08e
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - web
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: web_search_form_narrow
+theme: web
+region: primary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
