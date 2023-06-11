@@ -1,0 +1,29 @@
+uuid: bc743ef7-9e17-4f61-b633-204e41cba40b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.employee_list
+  module:
+    - system
+    - views
+  theme:
+    - custom_olivero
+id: views_block__employee_list_block_1_2
+theme: custom_olivero
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:employee_list-block_1'
+settings:
+  id: 'views_block:employee_list-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

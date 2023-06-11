@@ -1,0 +1,22 @@
+uuid: 6e1e464d-7def-420a-8b9b-788dc2a0ae8d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_olivero
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: custom_olivero_content
+theme: custom_olivero
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

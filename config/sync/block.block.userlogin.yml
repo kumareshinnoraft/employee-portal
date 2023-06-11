@@ -1,0 +1,32 @@
+uuid: e455af87-632f-4996-942a-769e639aefd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - custom_olivero
+id: userlogin
+theme: custom_olivero
+region: sidebar_first
+weight: -9
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/*"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

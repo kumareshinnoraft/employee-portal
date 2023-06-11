@@ -1,0 +1,33 @@
+uuid: 4dd20684-65c9-4ec1-b874-fafd57d3142a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add-skills-terms
+  module:
+    - system
+    - user
+  theme:
+    - custom_olivero
+id: custom_olivero_hrmenu
+theme: custom_olivero
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:add-skills-terms'
+settings:
+  id: 'system_menu_block:add-skills-terms'
+  label: 'HR Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      hr: hr

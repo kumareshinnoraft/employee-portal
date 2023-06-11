@@ -1,0 +1,10 @@
+uuid: 86ca0bee-d0c5-4c10-8c67-f9a43c87ab4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.showing_employees
+label: 'Showing Employees'
+targetEntityType: node
+cache: true

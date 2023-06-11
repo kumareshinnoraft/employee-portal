@@ -1,0 +1,50 @@
+uuid: e1d99aad-41ef-4a73-8095-c6668a76603f
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.employee.field_age
+    - field.field.node.employee.field_company
+    - field.field.node.employee.field_goals
+    - field.field.node.employee.field_key_characteristics
+    - field.field.node.employee.field_picture
+    - field.field.node.employee.field_project_field
+    - field.field.node.employee.field_sallary
+    - field.field.node.employee.field_skills
+    - field.field.node.employee.field_title
+    - image.style.thumbnail
+    - node.type.employee
+  module:
+    - image
+    - user
+id: node.employee.rss
+targetEntityType: node
+bundle: employee
+mode: rss
+content:
+  field_picture:
+    type: image
+    label: above
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_age: true
+  field_company: true
+  field_goals: true
+  field_key_characteristics: true
+  field_project_field: true
+  field_sallary: true
+  field_skills: true
+  field_title: true

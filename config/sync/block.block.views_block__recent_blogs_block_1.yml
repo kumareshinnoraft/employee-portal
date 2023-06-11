@@ -1,0 +1,29 @@
+uuid: 78005648-5555-46ae-bb81-1e302c4a030f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - custom_olivero
+id: views_block__recent_blogs_block_1
+theme: custom_olivero
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:recent_blogs-block_1'
+settings:
+  id: 'views_block:recent_blogs-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/*'

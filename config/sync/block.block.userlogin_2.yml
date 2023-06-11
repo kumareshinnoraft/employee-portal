@@ -1,0 +1,25 @@
+uuid: c8841373-35e5-4175-bd95-07e7fb509abe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: userlogin_2
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
